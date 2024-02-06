@@ -10,12 +10,12 @@
 
         <button @click="updateFoodShop">ปรับปรุงข้อมูล</button>
     </div>
-
+    
 </template>
 
 <script>
     import Header from './Header.vue'
-    import axios from 'axios'
+    // import axios from 'axios'
 
     export default{
         name: 'UpdatePage',

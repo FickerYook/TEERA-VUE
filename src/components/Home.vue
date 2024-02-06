@@ -16,6 +16,9 @@
             <td>{{ fs.sname }}</td>
             <td>{{ fs.contact }}</td>
             <td>{{ fs.address }}</td>
+            <td>
+                <router-link :to="'/update/'+fs.id">ปรับปรุงข้อมูล</router-link>
+            </td>
         </tr>
     </table>
 
