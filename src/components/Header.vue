@@ -23,39 +23,5 @@ export default {
 </script>
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-}
 
-.menu {
-    background-color: rgb(243, 152, 4);
-    overflow: hidden;
-    
-
-}
-
-.menu a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    float: left;
-    margin: 10px 15px;
-    box-sizing: border-box;
-    padding: 5px;
-}
-
-.menu a:hover {
-    border-bottom: 2px solid rgb(47, 31, 2);
-    padding: 0;
-}
-
-.menu a:focus {
-    border-bottom: 2px solid rgb(47, 31, 2);
-    padding: 0;
-}
-
-.menu router-link a:focus {
-    border-bottom: 2px solid rgb(47, 31, 2);
-    padding: 0;
-}</style>
+</style>

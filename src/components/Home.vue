@@ -8,11 +8,12 @@
             <th>NAME</th>
             <th>CONTACT</th>
             <th>ADDRESS</th>
+            <th>ACTIONS</th>
         </tr>
 
         <tr v-for="fs in foodshops" :key="fs.id">
             <td>{{ fs.id }}</td>
-            <td>{{ fs.name }}</td>
+            <td>{{ fs.sname }}</td>
             <td>{{ fs.contact }}</td>
             <td>{{ fs.address }}</td>
         </tr>
@@ -62,7 +63,9 @@
 
 <style>
 table{
+    margin: auto;
     width: 95%;
+    border-collapse: collapse;
 }
  .fs{
     margin: auto;
@@ -71,6 +74,7 @@ table{
  }
 
 th{
+    background-color: rgb(240, 183, 76);
     border: 1px solid gray;
 }
 td{
